@@ -14,7 +14,7 @@ public class ExceptionDemo {
 		try {
 			int b = a / 5;
 			System.out.println("value ==>" + b);
-		} catch (Exception e) {
+		} catch (ArithmeticException e) {
 			e.printStackTrace();
 		} finally {
 			System.out.println("Code completed !!!");
